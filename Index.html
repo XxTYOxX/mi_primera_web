@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera web</title>
+    <script src="https://kit.fontawesome.com/18dc00ac4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js"
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>  
+    <div class="container">
+        <header id="encabezado">
+           <a href="Index.html"><i class="fa-solid fa-house" ></i></a>
+           <nav> 
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="Barra de navegacion">
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="#acerca">Acerca de mi</a></li>
+                    <li><a href="trabajos">Trabajos</a></li>
+                    <li><a href="#trabajos">Servicio</a></li>
+                    <li><a href="#contactos">Contacto </a></li>
+            </ul>
+            </nav>
+        </header>
+    </div>
+    <main id="seccion-principal">
+        <section class="section-1">
+            <article class="acerca-de">
+                <div class="presentacion">
+                    <h2 id="Acercah2">Acerca de mi</h2>
+                    <p class="parrafo1">Bienvenido a mi pagina Web</p>
+                    <p class="parrafo2">Me llamo <strong>Luis diaz</strong>, nací en <strong>Barrancas</strong> y vivo en Liverpool.<br> 
+                    Me gusta el helado y salir a pasear en días de sol.<br> Me encantaría aprender a
+                    programar para poder ayudar a las personas a mostrar lo que hacen.</p>
+
+                    <p>A continuacion les voy a hablar sobre algunos titulos y actuaciones que e obtenido a lo largo de mi carrera</p>
+                </div>
+            </article>
+            <div class="acerca-imagen">
+                <img src="luisdiaz.jpg" alt="imagen luis diaz" width="400"/>          
+            
+            </div>
+        </section>
+        <section class="section-2"> 
+            <div class="container2">
+                <tr class="posteos">
+                    <th>
+                        <article class="post">
+                            <h2>Luis diaz Carabao cup</h2>
+                            <p>Actuaciones de luis diaz en esta competicion</p>
+                            <img src="luis2.jpg" alt="imagen luis diaz campeon"/>
+                            <p>Luis Díaz se consagró campeón de la Carabao Cup con Liverpool tras superar<br> 
+                            por la mínima diferencia a Chelsea en Wembley en un partido lleno de emociones,<br>
+                             polémicas y con el agónico gol de Virgil van Dijk cuando todos se preparaban para los penales</p>
+                        </article>
+                    </th>       
+                    <th>   
+                        <article class="post">
+                            <h2>Luis diaz FA CUP</h2>
+                            <p>Actuaciones de luis diaz en esta competicion</p>
+                            <img src="luisdfacup.jpg" alt="imagen luis diaz fa cup" />
+                            <p>Luis Díaz fue figura del Liverpool en su clasificación a la cuarta ronda <br>
+                             de la FA Cup, pues participó en los goles del triunfo de su equipo 0-2 sobre <br>
+                                Arsenal, en Londres: en el primero obligó al error de un rival; <br>
+                                y marcó el segundo gol, que liquidó el juego</p>
+                    </article>
+                    </th> 
+                
+                    <th>
+                        <article class="post">
+                            <h2>Luis diaz colombia</h2>
+                            <p>Actuaciones de luis diaz en la seleccion</p>
+                            <img src="luisdiazco.jpeg" alt="imagen luis diaz colombia" />
+                            <p>El desempeño de Luis Díaz con la 'tricolor' Por Eliminatorias este 2023, <br>
+                             ha jugado 510 minutos que se reparten en seis partidos jugados y en todos <br>
+                                ellos ha sido titular, además que ha marcado dos goles. En cuanto en los <br>
+                                partidos de fogueo jugó 160 minutos y anotó un gol.</p>
+                    </article> 
+                    </th>
+                </tr>  
+             </div> 
+        </section>
+    </main>
+    <footer class="form-header">
+        <h1>Contacto</h1>
+        <p><em>¡Esperamos tu consulta!</em></p>
+
+        <form action="" method="get" class="formulario" id="form">
+            <div class="form-row">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" type="text" />
+            </div>
+
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="pepe@gmail.com"
+                />
+            </div>
+            <div class="form-row">
+                <label for="mensaje">Mensaje</label> 
+                <textarea id="mensaje" name="mensaje">
+                </textarea>
+            </div>
+            <div class="form-row">
+                <button>Enviar</button>
+            </div>
+            
+        </form>
+    </footer>
+    <footer> 
+        <section class="contactactame">
+            <h3>Contactame</h3>
+            <tr>
+                <th><a href="Index.html">Inicio</a></th>
+                <th><a href="https://www.tiktok.com/@usbond4">Tik-tok</a></th>
+                <th><a href="https://www.instagram.com/imnot_suarez/">Instagram</a></th>
+                <th><a href="https://www.facebook.com/profile.php?id=100040059228850">Facebook</a></th>
+                <th><a href="mailto:suarezsebastian552@gmail.com">E-mail</a></th>
+            </tr>
+        </section>
+        <p class="parrafo-footer">Copyright 2024 ©</p>
+    </footer>
+</body>
+</html>
